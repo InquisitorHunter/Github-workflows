@@ -1,7 +1,7 @@
 name: OS info
 
 on:
-  workflow_dispath:
+  workflow_dispatch:
   jobs:
     osinfo:
     runs-on: ubuntu-latest
