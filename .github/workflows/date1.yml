@@ -5,8 +5,8 @@ on:
 
 jobs:
     show_date:
-    runs-on: ubuntu-latest
+      runs-on: ubuntu-latest
 
-    steps:
+      steps:
       - name: Print current date
         run: date
