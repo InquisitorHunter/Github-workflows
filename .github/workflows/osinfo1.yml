@@ -2,8 +2,9 @@ name: OS info
 
 on:
   workflow_dispatch:
-  jobs:
-    osinfo:
+
+jobs:
+  osinfo:
     runs-on: ubuntu-latest
 
     steps:
