@@ -1,11 +1,12 @@
-name: OS information
+name: Date
 
 on:
-  workflow_dispath:
-  jobs:
-    osinfo:
+  push:
+
+jobs:
+    show_date:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Show OS information
-        run: uname -v
+      - name: Print current date
+        run: date
